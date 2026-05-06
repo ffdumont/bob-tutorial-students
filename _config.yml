@@ -1,0 +1,27 @@
+title: Parcours Pédagogique IBM Bob
+description: Tutoriels de découverte d'IBM Bob pour étudiants
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Navigation
+navigation:
+  - title: Accueil
+    url: /
+  - title: Parcours Pédagogique
+    url: /parcours-pedagogique-bob
+  - title: Tutoriels Disponibles
+    url: /TUTORIELS-DISPONIBLES
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+# Exclude files
+exclude:
+  - getting-started-with-bob.txt
+  - getting-started-with-bob.pdf
+  - "4300-2605 Bob Tutorial for Students.md"
+
+# Made with Bob
