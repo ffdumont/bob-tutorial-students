@@ -27,8 +27,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 **Objectif :** Comprendre pourquoi et comment Bob change le travail
 
 ### Tutoriel 1.1 : Introduction à IBM Bob
-📄 **Fichier :** `tutoriel-1.1-introduction-bob.md`  
-⏱️ **Durée :** 30 minutes  
+📄 **Fichier :** [`tutoriel-1.1-introduction-bob.md`](tutoriel-1.1-introduction-bob.md)
+⏱️ **Durée :** 30 minutes
 🎯 **Niveau :** Débutant
 
 **Contenu :**
@@ -46,8 +46,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 1.2 : Le Cycle de Vie Agentique
-📄 **Fichier :** `tutoriel-1.2-cycle-vie-agentique.md`  
-⏱️ **Durée :** 45 minutes  
+📄 **Fichier :** [`tutoriel-1.2-cycle-vie-agentique.md`](tutoriel-1.2-cycle-vie-agentique.md)
+⏱️ **Durée :** 45 minutes
 🎯 **Niveau :** Fondamental
 
 **Contenu :**
@@ -65,8 +65,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 1.3 : Comment Bob Pense
-📄 **Fichier :** `tutoriel-1.3-comment-bob-pense.md`  
-⏱️ **Durée :** 45 minutes  
+📄 **Fichier :** [`tutoriel-1.3-comment-bob-pense.md`](tutoriel-1.3-comment-bob-pense.md)
+⏱️ **Durée :** 45 minutes
 🎯 **Niveau :** Fondamental
 
 **Contenu :**
@@ -84,8 +84,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 1.4 : La Transition des Habitudes
-📄 **Fichier :** `tutoriel-1.4-transition-habitudes.md`  
-⏱️ **Durée :** 30 minutes  
+📄 **Fichier :** [`tutoriel-1.4-transition-habitudes.md`](tutoriel-1.4-transition-habitudes.md)
+⏱️ **Durée :** 30 minutes
 🎯 **Niveau :** Fondamental
 
 **Contenu :**
@@ -108,8 +108,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 **Objectif :** Utiliser Bob efficacement au quotidien
 
 ### Tutoriel 2.1 : L'Interface Bob dans l'IDE
-📄 **Fichier :** `tutoriel-2.1-interface-bob.md`  
-⏱️ **Durée :** 45 minutes  
+📄 **Fichier :** [`tutoriel-2.1-interface-bob.md`](tutoriel-2.1-interface-bob.md)
+⏱️ **Durée :** 45 minutes
 🎯 **Niveau :** Pratique
 
 **Contenu :**
@@ -128,8 +128,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 2.2 : Gestion du Contexte ⭐ CRITIQUE
-📄 **Fichier :** `tutoriel-2.2-gestion-contexte.md`  
-⏱️ **Durée :** 1h30  
+📄 **Fichier :** [`tutoriel-2.2-gestion-contexte.md`](tutoriel-2.2-gestion-contexte.md)
+⏱️ **Durée :** 1h30
 🎯 **Niveau :** Fondamental (CRITIQUE)
 
 **Contenu :**
@@ -153,8 +153,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 2.3 : Contrats Avant Code
-📄 **Fichier :** `tutoriel-2.3-contrats-avant-code.md`  
-⏱️ **Durée :** 45 minutes  
+📄 **Fichier :** [`tutoriel-2.3-contrats-avant-code.md`](tutoriel-2.3-contrats-avant-code.md)
+⏱️ **Durée :** 45 minutes
 🎯 **Niveau :** Pratique
 
 **Contenu :**
@@ -172,8 +172,8 @@ Ce document liste tous les tutoriels disponibles dans le parcours pédagogique I
 ---
 
 ### Tutoriel 2.4 : Votre Première Tâche Accountable
-📄 **Fichier :** `tutoriel-2.4-premiere-tache.md`  
-⏱️ **Durée :** 1 heure  
+📄 **Fichier :** [`tutoriel-2.4-premiere-tache.md`](tutoriel-2.4-premiere-tache.md)
+⏱️ **Durée :** 1 heure
 🎯 **Niveau :** Pratique (Hands-on)
 
 **Contenu :**

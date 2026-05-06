@@ -14,6 +14,21 @@ title: Fiche Projet - SmartFlow
 
 ## 🎯 Vue d'Ensemble du Projet
 
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : Setup SUMO + Détection YOLO de base + Environnement Gymnasium
+- **Semaine 2** : Agent PPO + Fonction de récompense multi-objectifs
+- **Semaine 3** : Intégration DL→RL + Scénarios (urgences, accidents)
+- **Semaine 4** : Dashboard, métriques, tests, documentation
+
 ### Objectif
 Concevoir un agent intelligent capable de percevoir son environnement via des flux vidéo (Deep Learning) et de prendre des décisions optimales en temps réel (Reinforcement Learning) pour fluidifier le trafic à une intersection complexe.
 

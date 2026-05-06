@@ -14,6 +14,21 @@ title: Fiche Projet - Emotion-IA
 
 ## 🎯 Vue d'Ensemble du Projet
 
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : CNN de base sur FER-2013 + Pipeline webcam simple
+- **Semaine 2** : Agent DQN + Ajustements dynamiques basiques
+- **Semaine 3** : Optimisation temps réel + Interface Streamlit
+- **Semaine 4** : Tests, détection de biais, documentation
+
 ### Objectif
 Créer un système auto-adaptatif de reconnaissance faciale d'émotions en temps réel, capable d'ajuster dynamiquement les paramètres vidéo pour maintenir une haute précision de détection.
 

@@ -14,6 +14,21 @@ title: Fiche Projet - CurioRL
 
 ## 🎯 Vue d'Ensemble du Projet
 
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : Architecture modulaire + VAE/CNN de base + MiniGrid setup
+- **Semaine 2** : Clustering dynamique + Récompenses intrinsèques
+- **Semaine 3** : Agent PPO/DQN + Intégration complète
+- **Semaine 4** : Debugging, visualisations, documentation
+
 ### Objectif
 Créer un agent d'exploration autonome par curiosité intrinsèque dans MiniGrid, capable d'explorer efficacement sans récompenses externes denses en utilisant une forme de "curiosité" endogène.
 

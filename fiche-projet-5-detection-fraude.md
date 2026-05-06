@@ -14,6 +14,21 @@ title: Fiche Projet - Détection de Fraude
 
 ## 🎯 Vue d'Ensemble du Projet
 
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : Exploration dataset + Baseline DL + Gestion déséquilibre
+- **Semaine 2** : Optimisation modèle + Métriques adaptées (F1, AUC-ROC)
+- **Semaine 3** : Optimisation temps réel + Explainability (SHAP/LIME)
+- **Semaine 4** : Interface Streamlit, tests, documentation
+
 ### Objectif
 Détecter efficacement des transactions frauduleuses dans un dataset massivement déséquilibré (0.17% de fraudes), en temps réel, tout en minimisant les faux positifs.
 

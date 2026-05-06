@@ -9,6 +9,21 @@
 
 ## 🎯 Vue d'Ensemble du Projet
 
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : Architecture + Pipeline de données + LSTM de base
+- **Semaine 2** : Autoencoders + Premiers résultats RL
+- **Semaine 3** : Comparaison des approches + Dashboard
+- **Semaine 4** : Tests, documentation, présentation
+
 ### Objectif
 Développer et comparer plusieurs approches (DL supervisé, non supervisé, RL) pour prédire les rendements futurs du S&P 500.
 

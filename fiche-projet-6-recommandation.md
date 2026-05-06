@@ -12,6 +12,21 @@ title: Fiche Projet - Système de Recommandation
 
 ---
 
+
+### ⏰ Contrainte Temporelle Critique
+**Deadline : 5 juin 2026** (environ 1 mois)
+
+Ce projet doit être **terminé en 4 semaines maximum**. Cette contrainte impose :
+- ✅ Priorisation stricte des fonctionnalités (MVP d'abord)
+- ✅ Utilisation intensive de Bob pour accélérer le développement
+- ✅ Focus sur les composants essentiels, pas la perfection
+- ✅ Itérations rapides avec validation continue
+
+**Stratégie recommandée :**
+- **Semaine 1** : Setup MovieLens + Filtrage collaboratif de base
+- **Semaine 2** : RL simplifié (apprentissage likes/dislikes) + Interface Streamlit
+- **Semaine 3** : IA explicable + Gestion cold start
+- **Semaine 4** : Optimisation UX, tests utilisateurs, documentation
 ## 🎯 Vue d'Ensemble du Projet
 
 ### Objectif
