@@ -1,8 +1,8 @@
 # Parcours Pédagogique IBM Bob
 ## Découverte Progressive par Tutoriels
 
-**Version:** 1.0  
-**Basé sur:** Getting Started with IBM Bob v1.2.0  
+**Version:** 1.1
+**Basé sur:** Getting Started with IBM Bob v1.2.0
 **Public cible:** Développeurs, architectes, product managers, QA, et équipes de sécurité
 
 ---
@@ -12,6 +12,28 @@
 Ce parcours pédagogique est conçu pour vous accompagner dans la découverte et la maîtrise d'IBM Bob à travers une série de tutoriels pratiques et progressifs. Chaque module s'appuie sur les connaissances acquises précédemment.
 
 ### Durée estimée totale : 8-12 heures
+
+---
+
+## 🎓 Nouveau : Fiches Projet ESIEE
+
+**Des guides pratiques pour 6 projets Deep Learning & Reinforcement Learning !**
+
+Chaque fiche mappe le parcours pédagogique aux besoins spécifiques d'un projet étudiant :
+- Questions contextualisées à chaque module
+- Prompts Bob prêts à l'emploi
+- Exercices adaptés au projet
+- Checklist finale et ressources
+
+**[📖 Accéder aux Fiches Projet](fiches-projet-esiee-guide.md)**
+
+**Projets disponibles :**
+1. [Prédiction S&P 500](fiche-projet-1-prediction-sp500.md) - Finance (LSTM + Autoencoders + RL)
+2. [Emotion-IA](fiche-projet-2-emotion-ia.md) - Vision temps réel (CNN + DQN)
+3. [CurioRL](fiche-projet-3-curiorl.md) - Exploration par curiosité (VAE + Clustering + PPO)
+4. [SmartFlow](fiche-projet-4-smartflow.md) - Trafic urbain (YOLO + PPO + SUMO)
+5. [Détection de Fraude](fiche-projet-5-detection-fraude.md) - Sécurité bancaire (DL + Dataset déséquilibré)
+6. [Système de Recommandation](fiche-projet-6-recommandation.md) - Films adaptatifs (Filtrage collaboratif + RL)
 
 ---
 

@@ -15,6 +15,7 @@ Ce parcours pédagogique est conçu pour vous guider progressivement dans la ma�
 
 - **[Parcours Pédagogique Complet](parcours-pedagogique-bob.md)** - Structure complète des 6 modules
 - **[Liste des Tutoriels Disponibles](TUTORIELS-DISPONIBLES.md)** - Tous les tutoriels avec statistiques
+- **[Fiches Projet ESIEE](fiches-projet-esiee-guide.md)** - Guide pour projets DL+RL ⭐ NOUVEAU
 - **[Guide de Démarrage](README.md)** - Instructions et recommandations
 
 ## 🎯 Modules Disponibles
@@ -41,6 +42,27 @@ Maîtriser l'interface et les concepts essentiels pour travailler efficacement a
 - **Module 4** : Patterns et Anti-Patterns (2h)
 - **Module 5** : Projets Réels (3h)
 - **Module 6** : Maîtrise et Optimisation (2h)
+
+## 🎓 Fiches Projet ESIEE - Deep Learning & RL
+
+**Nouveau !** Des fiches projet détaillées pour 6 projets étudiants combinant Deep Learning et Reinforcement Learning.
+
+### Projets Disponibles
+
+1. **[Prédiction S&P 500](fiche-projet-1-prediction-sp500.md)** - Finance quantitative (LSTM + Autoencoders + RL)
+2. **[Emotion-IA](fiche-projet-2-emotion-ia.md)** - Reconnaissance faciale temps réel (CNN + DQN)
+3. **[CurioRL](fiche-projet-3-curiorl.md)** - Exploration par curiosité (VAE + Clustering + PPO)
+4. **[SmartFlow](fiche-projet-4-smartflow.md)** - Gestion de trafic urbain (YOLO + PPO + SUMO)
+5. **[Détection de Fraude](fiche-projet-5-detection-fraude.md)** - Sécurité bancaire (DL + Dataset déséquilibré)
+6. **[Système de Recommandation](fiche-projet-6-recommandation.md)** - Films adaptatifs (Filtrage collaboratif + RL)
+
+**[📖 Guide des Fiches Projet](fiches-projet-esiee-guide.md)** - Comment utiliser les fiches
+
+Chaque fiche mappe le parcours pédagogique Bob aux besoins spécifiques du projet avec :
+- Questions contextualisées à chaque étape
+- Prompts Bob prêts à l'emploi
+- Exercices adaptés au projet
+- Checklist finale et ressources
 
 ## 📊 Statistiques
 

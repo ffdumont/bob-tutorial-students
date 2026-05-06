@@ -11,6 +11,8 @@ navigation:
     url: /parcours-pedagogique-bob
   - title: Tutoriels Disponibles
     url: /TUTORIELS-DISPONIBLES
+  - title: Fiches Projet ESIEE
+    url: /fiches-projet-esiee-guide
 
 # Markdown settings
 markdown: kramdown
