@@ -5,6 +5,11 @@
 **Niveau :** Pratique  
 **Prérequis :** Tutoriels 2.1 et 2.2
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour des exemples de contrats adaptés à votre projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

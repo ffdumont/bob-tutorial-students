@@ -5,6 +5,11 @@
 **Niveau :** Fondamental  
 **Prérequis :** Tutoriel 1.1 - Introduction à IBM Bob
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour des questions spécifiques sur comment le cycle agentique s'applique à votre projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

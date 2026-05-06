@@ -5,6 +5,11 @@
 **Niveau :** Pratique (Hands-on)  
 **Prérequis :** Tutoriels 2.1, 2.2 et 2.3
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour des exemples de premières tâches adaptées à votre projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

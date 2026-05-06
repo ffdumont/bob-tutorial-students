@@ -5,6 +5,11 @@
 **Niveau :** Fondamental  
 **Prérequis :** Tutoriel 1.1 et 1.2
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour comprendre comment le modèle mental de Bob s'applique à votre projet spécifique (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

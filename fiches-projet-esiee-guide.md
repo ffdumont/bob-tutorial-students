@@ -81,112 +81,78 @@ Pour chaque tutoriel (2.1 à 2.4) :
 
 ---
 
-### 📝 Fiche 2 : Emotion-IA (À CRÉER)
-**Fichier :** `fiche-projet-2-emotion-ia.md`  
-**Équipe :** DIOP, WANDAOGO, DIALLO  
-**Domaine :** Vision par ordinateur + RL  
+### ✅ Fiche 2 : Emotion-IA (CRÉÉE)
+**Fichier :** [`fiche-projet-2-emotion-ia.md`](fiche-projet-2-emotion-ia.md)
+**Équipe :** DIOP, WANDAOGO, DIALLO
+**Domaine :** Vision par ordinateur + RL
 **Focus :** CNN pour émotions + DQN pour ajustement vidéo temps réel
 
-**Points clés spécifiques :**
+**Points clés :**
 - Optimisation temps réel (< 100ms)
 - Gestion du flux vidéo webcam
 - Ajustement dynamique des paramètres
 - Interface Streamlit temps réel
 - Détection de biais démographiques
 
-**Questions spécifiques à intégrer :**
-- Comment optimiser l'inférence CNN pour le temps réel ?
-- Comment l'agent DQN doit-il ajuster contraste/exposition ?
-- Comment détecter et corriger les biais dans les émotions ?
-- Comment gérer la latence du pipeline complet ?
-
 ---
 
-### 📝 Fiche 3 : CurioRL (À CRÉER)
-**Fichier :** `fiche-projet-3-curiorl.md`  
-**Équipe :** DOMONQ  
-**Domaine :** Recherche en RL  
+### ✅ Fiche 3 : CurioRL (CRÉÉE)
+**Fichier :** [`fiche-projet-3-curiorl.md`](fiche-projet-3-curiorl.md)
+**Équipe :** DOMONQ
+**Domaine :** Recherche en RL
 **Focus :** VAE + Clustering + PPO pour exploration par curiosité
 
-**Points clés spécifiques :**
+**Points clés :**
 - Architecture complexe (3 composants interdépendants)
 - Récompenses intrinsèques (curiosité)
 - Clustering dynamique sur espace latent
 - Environnement MiniGrid
 - Debugging avancé (collapse de politique, clusters dégénérés)
 
-**Questions spécifiques à intégrer :**
-- Comment structurer les 3 modules avec faible couplage ?
-- Comment calculer les récompenses de curiosité ?
-- Comment détecter le collapse de politique ?
-- Comment visualiser l'espace latent et les clusters ?
-- Comment Bob peut aider au debugging de comportements émergents ?
-
 ---
 
-### 📝 Fiche 4 : SmartFlow (À CRÉER)
-**Fichier :** `fiche-projet-4-smartflow.md`  
-**Équipe :** VOLCY, GUIRAUDEN  
-**Domaine :** Vision + RL pour trafic urbain  
+### ✅ Fiche 4 : SmartFlow (CRÉÉE)
+**Fichier :** [`fiche-projet-4-smartflow.md`](fiche-projet-4-smartflow.md)
+**Équipe :** VOLCY, GUIRAUDEN
+**Domaine :** Vision + RL pour trafic urbain
 **Focus :** YOLO/Faster R-CNN + PPO + Simulation SUMO
 
-**Points clés spécifiques :**
+**Points clés :**
 - Intégration DL (détection) → RL (décision)
 - Simulation SUMO (environnement complexe)
 - Métriques urbaines (temps d'attente, émissions CO2)
 - Dashboard de visualisation temps réel
 - Cas d'usage : véhicules d'urgence
 
-**Questions spécifiques à intégrer :**
-- Comment connecter YOLO à l'environnement Gymnasium ?
-- Comment définir la fonction de récompense (multi-objectifs) ?
-- Comment gérer les événements aléatoires (accidents, urgences) ?
-- Comment visualiser la simulation et les décisions de l'agent ?
-- Comment Bob peut aider à l'intégration SUMO ?
-
 ---
 
-### 📝 Fiche 5 : Détection de Fraude (À CRÉER)
-**Fichier :** `fiche-projet-5-detection-fraude.md`  
-**Équipe :** DEBBAGH, JABRY, GUEDIRI  
-**Domaine :** Sécurité financière  
+### ✅ Fiche 5 : Détection de Fraude (CRÉÉE)
+**Fichier :** [`fiche-projet-5-detection-fraude.md`](fiche-projet-5-detection-fraude.md)
+**Équipe :** DEBBAGH, JABRY, GUEDIRI
+**Domaine :** Sécurité financière
 **Focus :** DL pour classification + RL + Dataset déséquilibré
 
-**Points clés spécifiques :**
+**Points clés :**
 - Dataset massivement déséquilibré (0.17% de fraudes)
 - Temps réel (inférence rapide)
 - Métriques adaptées (F1-score, AUC-ROC, pas accuracy)
 - Interface Streamlit pour test
 - Gestion des faux positifs/négatifs
 
-**Questions spécifiques à intégrer :**
-- Comment gérer le déséquilibre extrême des classes ?
-- Quelles techniques de sampling utiliser ?
-- Comment optimiser pour le temps réel ?
-- Comment expliquer les prédictions (SHAP, LIME) ?
-- Quelles métriques suivre en production ?
-
 ---
 
-### 📝 Fiche 6 : Système de Recommandation (À CRÉER)
-**Fichier :** `fiche-projet-6-recommandation.md`  
-**Équipe :** PRAT, AÏSSAOUI, GUILLERMET-LAOUAD, JMAL  
-**Domaine :** Recommandation adaptative  
+### ✅ Fiche 6 : Système de Recommandation (CRÉÉE)
+**Fichier :** [`fiche-projet-6-recommandation.md`](fiche-projet-6-recommandation.md)
+**Équipe :** PRAT, AÏSSAOUI, GUILLERMET-LAOUAD, JMAL
+**Domaine :** Recommandation adaptative
 **Focus :** Filtrage collaboratif + RL simplifié + Interface web
 
-**Points clés spécifiques :**
+**Points clés :**
 - Dataset MovieLens (simple et connu)
 - RL simplifié (apprentissage des likes/dislikes)
 - Interface utilisateur intuitive
 - Adaptation progressive aux préférences
 - IA explicable (pourquoi cette recommandation ?)
-
-**Questions spécifiques à intégrer :**
-- Comment implémenter le filtrage collaboratif efficacement ?
-- Comment l'agent RL doit-il apprendre des feedbacks ?
-- Comment créer une interface Streamlit engageante ?
-- Comment expliquer les recommandations à l'utilisateur ?
-- Comment gérer le cold start (nouveaux utilisateurs) ?
 
 ---
 

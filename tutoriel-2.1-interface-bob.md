@@ -5,6 +5,11 @@
 **Niveau :** Pratique  
 **Prérequis :** Module 1 complet
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour des exemples concrets d'utilisation de l'interface Bob dans votre contexte projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

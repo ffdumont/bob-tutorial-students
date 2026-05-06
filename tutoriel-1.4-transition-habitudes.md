@@ -5,6 +5,11 @@
 **Niveau :** Fondamental  
 **Prérequis :** Tutoriels 1.1, 1.2 et 1.3
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour identifier les habitudes spécifiques à adopter pour votre projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage

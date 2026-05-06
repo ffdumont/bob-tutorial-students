@@ -5,6 +5,11 @@
 **Niveau :** Fondamental (CRITIQUE)  
 **Prérequis :** Tutoriel 2.1 - L'Interface Bob dans l'IDE
 
+## 🎓 Pour les Projets DL+RL
+
+**Étudiants ESIEE :** Consultez votre [fiche projet](fiches-projet-esiee-guide.md) pour des stratégies spécifiques de gestion du contexte adaptées à votre projet (finance, vision, RL, trafic, fraude, recommandation).
+
+---
 ---
 
 ## 🎯 Objectifs d'Apprentissage
