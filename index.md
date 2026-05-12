@@ -1,3 +1,10 @@
+---
+layout: default
+---
+
+* TOC
+{:toc}
+
 # Best practices for IBM Bob
 
 > Source: *Getting Started with IBM Bob*, Markus Eisele (v1.2.0)
