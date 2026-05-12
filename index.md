@@ -5,6 +5,7 @@ layout: default
 # Best practices for IBM Bob
 
 > Source: *Getting Started with IBM Bob*, Markus Eisele (v1.2.0)
+> Structure aligned with: https://code.claude.com/docs/en/best-practices
 
 Bob is an AI partner for the software development lifecycle. The premise is blunt: code is text, software is a system. Writing code has never been easier; designing systems, changing them safely, and keeping them valuable over time still is.
 
@@ -42,51 +43,6 @@ Contract shape changes with the job:
 A worked contract for a modernization task:
 
 > *"Modernize AuthenticationService to Java 21 style while preserving all existing login, token refresh, and audit behavior. No public API changes. All existing tests must pass unchanged. Stop if the refactor requires a behavior change we cannot explain in the PR."*
-
-### ML/DL workflow examples
-
-**Fraud detection with imbalanced dataset** (multi-conversation workflow):
-
-```
-Conversation 1 (0.2 BC): Dataset Analysis
-Contract: "Analyze imbalance in credit card fraud dataset. Dataset: 284,807
-transactions, 492 frauds (0.17%). Recommend sampling strategies without loading
-full data. Success: clear recommendation with trade-offs. Stop if analysis
-requires loading full dataset."
-
-Conversation 2 (0.8 BC): Sampling Implementation
-Contract: "Implement 3 techniques: SMOTE, undersampling, hybrid. Create
-evaluation script with F1, AUC-ROC, precision, recall. Success: all three
-methods working, evaluation script runs. Stop if any method requires > 1GB memory."
-
-Conversation 3 (0.5 BC): Threshold Optimization
-Contract: "Optimize decision threshold for recall > 0.90 while maximizing
-precision. Success: threshold found, documented trade-offs. Stop if recall
-cannot reach 0.90."
-
-Total: ~1.5 BC
-```
-
-**Real-time emotion recognition** (architecture → implementation → optimization):
-
-```
-Conversation 1 (0.3 BC): Architecture Planning
-Contract: "Design CNN for emotion recognition. Constraints: 48×48 input, 7 classes,
-inference < 50ms. Success: architecture diagram with layer specs and estimated
-latency. Stop if estimated latency > 50ms."
-
-Conversation 2 (1.0 BC): Pipeline Implementation
-Contract: "Implement video pipeline with profiling. Measure latency: capture,
-preprocess, inference, display. Success: working pipeline with per-stage timing.
-Stop if total latency > 100ms."
-
-Conversation 3 (0.7 BC): Optimization
-Contract: "Optimize bottlenecks. Target: latency < 100ms end-to-end. Success:
-latency under target, documented optimizations. Stop if optimization requires
-model architecture changes."
-
-Total: ~2.0 BC
-```
 
 The right moment to write the contract is before execution, not after a good-looking diff appears.
 
@@ -135,15 +91,6 @@ Grounding habits:
 - Keep one clear outcome per task thread
 - Link authoritative docs or specs when the answer must match an external contract
 - Don't treat earlier chat turns like durable memory across sessions — re-ground with mentions when it matters
-
-ML/DL-specific grounding examples:
-
-| High signal | Low signal |
-|---|---|
-| *"Bob, analyze schema and first 100 rows of @data/fraud.csv"* | *"Bob, analyze @data/fraud.csv"* (284K rows) |
-| *"Bob, design CNN for 48×48 input, 7 classes, inference < 50ms"* | *"Bob, design a CNN for emotion recognition"* |
-| *"Bob, reduce latency from 80ms to < 50ms in @pipeline.py:45-120"* | *"Bob, improve the model performance"* |
-| *"Bob, implement SMOTE for 0.17% minority class, target F1 > 0.85"* | *"Bob, fix the imbalanced dataset"* |
 
 Most "hallucinations" are context debt: a missing constraint, a missing source of truth, a missing test expectation, a business rule that never entered the task.
 
@@ -356,28 +303,6 @@ The reliable fix is usually not arguing longer; it is reset context and re-groun
 
 The window is on the order of 200K tokens, large but shared. System rules, chat history, `@` attachments, and tool output all draw from the same pool. Auto-condense (when the product summarises older turns) is cited around 140K; the hard cap is in the same ballpark as the headline window size.
 
-#### Understanding your budget
-
-For teams with token budgets (e.g., students with 40 BobCoins over 1 month):
-
-- **Each conversation** draws from the 200K token window
-- **Total budget** = number of BobCoins available
-
-Budget allocation example for a 4-week project:
-```
-Week 1: Architecture + Setup (10 BC)
-Week 2: Core Features (12 BC)
-Week 3: Optimization (10 BC)
-Week 4: Polish + Documentation (8 BC)
-```
-
-Cost optimization techniques:
-- Use Plan mode first (cheaper, read-only exploration)
-- Reset conversations when context becomes crowded
-- Use precise `@` mentions instead of folder-level includes
-- Avoid loading full datasets — work with schemas and samples
-- Isolate expensive exploration in separate threads
-
 The **Context Pack** is the smallest bounded evidence Bob needs for one task:
 
 - task intent
@@ -389,51 +314,6 @@ The **Context Pack** is the smallest bounded evidence Bob needs for one task:
 - stop condition
 
 Ship a packet another reviewer could follow — not a brain dump.
-
-#### Context Pack examples for ML/DL projects
-
-**Reinforcement Learning project:**
-```markdown
-✅ Include:
-- Environment wrapper (@envs/traffic_env.py)
-- Agent architecture (@agents/ppo_agent.py)
-- Reward function (@utils/reward.py)
-- Config (@config/rl_config.yaml)
-
-❌ Exclude:
-- Replay buffers, checkpoints, logs, full simulation files
-
-Estimated cost: 0.3-0.5 BC per conversation
-```
-
-**Computer Vision real-time project:**
-```markdown
-✅ Include:
-- Model architecture (@models/emotion_cnn.py)
-- Pipeline (@utils/video_pipeline.py)
-- Benchmark (@tests/benchmark.py)
-- Config (@config/model_config.yaml)
-
-❌ Exclude:
-- Full dataset, trained models, video frames, logs
-
-Estimated cost: 0.4-0.6 BC per conversation
-```
-
-**Imbalanced dataset project:**
-```markdown
-✅ Include:
-- Dataset schema and statistics
-- Sampling strategy (@utils/sampling.py)
-- Evaluation metrics (@utils/metrics.py)
-- Sample of minority class (100 rows max)
-
-❌ Exclude:
-- Full dataset (use summary statistics instead)
-- All trained model checkpoints
-
-Estimated cost: 0.2-0.4 BC per conversation
-```
 
 Healthy chat checklist:
 
@@ -495,7 +375,7 @@ Bob's product surface includes Bob Shell alongside the IDE side panel. Practitio
 
 *See preface.*
 
-### Parallel sessions: outside the book
+### Parallel sessions
 
 Patterns for running multiple Bob sessions concurrently — worktrees, parallel agents, isolated VMs, writer/reviewer pairs — are not part of the practitioner habits collected here. The IDE-side-panel posture assumes one thread, one human approver at a time.
 
@@ -539,20 +419,6 @@ Seven recurring anti-patterns:
 | **The Black Box User** — using Bob off-thread, leaving teammates to guess how code appeared | Put intent, plans, and tool use where reviewers already look — commits, PRs, tickets |
 | **The Shortcut Seeker** — asking for answers to skip building mental models | Use explanations as teaching aids; verify claims against the repo |
 | **The Production Experimenter** — pointing automation at prod without staging or review | Same guardrails as any privileged change: review, staging, humans on approvals, tight MCP and auto-approve posture |
-
-### Budget-conscious pitfalls for students and constrained teams
-
-Five common mistakes that waste tokens unnecessarily:
-
-| Pitfall | Cost Impact | Fix |
-|---|---|---|
-| **Loading Full Datasets** — *"Bob, analyze @data/creditcard.csv"* (284K rows) | ~0.3 BC wasted | Analyze schema and first 100 rows only; use summary statistics |
-| **Long Argumentative Conversations** — continuing to correct Bob in the same crowded thread | ~0.5 BC wasted | Reset after 2 failed corrections; start fresh with clearer context |
-| **Vague Intent** — *"Bob, improve the model"* without measurable targets | ~0.2 BC wasted | Specify exact metrics: *"reduce latency from 80ms to < 50ms"* |
-| **Skipping Plan Mode** — jumping straight to Code mode without exploration | ~0.5 BC wasted | Use Plan mode first (cheaper, read-only), then execute in Code mode |
-| **Including Unnecessary Files** — *@entire_project_folder* instead of targeted mentions | ~0.1-0.2 BC wasted | Use *@specific_file:line_range* or list only relevant files |
-
-**Total potential savings per project:** 1.6-2.7 BC through disciplined context management.
 
 Five situations where reaching for Bob first is the wrong move:
 
