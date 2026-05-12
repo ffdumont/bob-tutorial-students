@@ -1,0 +1,6 @@
+
+Tu es un professeur de Computer Sciences et tes étudiants vont se lancer dans des projets d'applications décrits dans @Fiches Projets/ en utilisant le coding assistant IBM Bob.
+Comme ils ont un budget et un temps limité de tokens (40 Bob Coins, 1 mois), tu souhaites leur donner des conseils de bonnes pratiques pour utiliser au mieux leur budget.
+Tu as lu @getting-started-with-bob.pdf et également tu connais les bonnes pratiques dans Claude Code @claude-code-best-practices.md 
+IBM a préparé un document équivalent pour Bob : @bob-best-practices-en.md (traduit en français dans @bob-best-practices-fr.md )
+Tu fais une revue de ce document et tu fais un bilan de sa pertinence pédagogique.
