@@ -65,7 +65,7 @@
       }
       
       /* H2 links (first level) in bold */
-      .toc-sidebar > ul > li > a {
+      .toc-sidebar a.toc-h2 {
         font-weight: bold;
       }
       
@@ -182,7 +182,9 @@
             tocHTML += '</li>';
           }
           
-          tocHTML += `<li><a href="#${id}">${text}</a>`;
+          // Add class for H2 (first level) to make them bold
+          const linkClass = level === 2 ? ' class="toc-h2"' : '';
+          tocHTML += `<li><a${linkClass} href="#${id}">${text}</a>`;
           currentLevel = level;
         });
         
