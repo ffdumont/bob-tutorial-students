@@ -356,22 +356,6 @@ The reliable fix is usually not arguing longer; it is reset context and re-groun
 
 The window is on the order of 200K tokens, large but shared. System rules, chat history, `@` attachments, and tool output all draw from the same pool. Auto-condense (when the product summarises older turns) is cited around 140K; the hard cap is in the same ballpark as the headline window size.
 
-#### Understanding your budget
-
-For teams with token budgets (e.g., students with 40 BobCoins over 1 month):
-
-- **1 BobCoin ≈ 200,000 tokens** (validated empirically with real usage data)
-- **Each conversation** draws from the 200K token window
-- **Total budget** = number of BobCoins × 200K tokens (e.g., 40 BC = 8M tokens total)
-
-Budget allocation example for a 4-week project:
-```
-Week 1: Architecture + Setup (10 BC)
-Week 2: Core Features (12 BC)
-Week 3: Optimization (10 BC)
-Week 4: Polish + Documentation (8 BC)
-```
-
 Cost optimization techniques:
 - Use Plan mode first (cheaper, read-only exploration)
 - Reset conversations when context becomes crowded
